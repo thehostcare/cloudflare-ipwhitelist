@@ -26,7 +26,7 @@ The script is **idempotent** — re-running it removes any prior `cf4` ipset and
 ## Usage
 
 ```bash
-curl -O https://raw.githubusercontent.com/<you>/<repo>/main/cf-only.sh
+curl -O https://github.com/thehostcare/cloudflare-ipwhitelist
 chmod +x cf-only.sh
 sudo ./cf-only.sh
 ```
